@@ -57,3 +57,13 @@ __Loss:__ the difference between your prediction and the actual label.
         * loss decreases as the performance gets better.
 
 __Accuracy:__ predictions/actual
+
+## K-Nearest Neighbors (K-NN)
+Look at what's around you, and take the label of the majority that's around me.
+* Define a distance function (Euclidean distance)
+    * straight line distnce from current point to nearest label (sample).
+    ```
+    d = sqrt((x1 - x2)^2 + (y1 - y2)^2)
+    ```
+    * __k__ tells us how many neighbors to use to judge the label.
+        * all depends on how big the data is
