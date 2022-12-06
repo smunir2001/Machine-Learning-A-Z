@@ -65,8 +65,12 @@ Look at what's around you, and take the label of the majority that's around me.
     ```
     * __k__ tells us how many neighbors to use to judge the label.
         * all depends on how big the data is
-## Naive Bayes (58 minutes)
+## Naive Bayes
 MAP (Maximum A Posteriori)
+* what is the probility that something is from a specific class
+    * posterior
+    * liklihood
+    * prior
 ## Logistic Regression
 * Sigmoid Function
 ## Support Vector Machines (SVM)

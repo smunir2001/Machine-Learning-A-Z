@@ -72,3 +72,13 @@ print('Naive Bayes\n-----------')
 print('y_pred =\n', y_pred)
 print('y_test =\n', y_test, '\n')
 print(classification_report(y_test, y_pred))
+
+# Logistic Regression
+from sklearn.linear_model import LogisticRegression
+lg_model = LogisticRegression()
+lg_model = lg_model.fit(x_train, y_train)
+y_pred = lg_model.predict(x_test)
+print('Logistic Regression\n-------------------')
+print('y_pred =\n', y_pred)
+print('y_test =\n', y_test, '\n')
+print(classification_report(y_test, y_pred))
