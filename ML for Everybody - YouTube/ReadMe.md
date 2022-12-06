@@ -20,7 +20,6 @@ __Arificial intelligence__ is an area of computer science, where the goal is to 
 __Machine learning__ is a subset of Ai that tries to solve a specific problem and make predictino using data.
 
 __Data science__ is a field that attempts to find patterns and draw insights from data (might use ML!); all fields overlap.
-
 ## Types of Machine Learning
 1. __Supervised learning -__ uses labeled inputs (meaning the input has a corresponding output label) to train models and learn outputs.
 2. __Unsupervised learning -__ uses unlabeled data to learn about patterns in data.
@@ -57,7 +56,6 @@ __Loss:__ the difference between your prediction and the actual label.
         * loss decreases as the performance gets better.
 
 __Accuracy:__ predictions/actual
-
 ## K-Nearest Neighbors (K-NN)
 Look at what's around you, and take the label of the majority that's around me.
 * Define a distance function (Euclidean distance)
@@ -67,3 +65,11 @@ Look at what's around you, and take the label of the majority that's around me.
     ```
     * __k__ tells us how many neighbors to use to judge the label.
         * all depends on how big the data is
+## Naive Bayes (58 minutes)
+MAP (Maximum A Posteriori)
+## Logistic Regression
+* Sigmoid Function
+## Support Vector Machines (SVM)
+* margins (goal is to maximize margin)
+* find straight line to distictively split the two classes
+* not robust with outliers
