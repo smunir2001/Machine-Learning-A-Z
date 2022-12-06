@@ -84,3 +84,5 @@ Input layer -> hidden layer -> output layer
 * the sum of all weights for each feature goes into the neuron
     * add bias term to the neurons
 * activation function application -> output
+## TensorFlow
+Open source library to help you develop and train ML models.

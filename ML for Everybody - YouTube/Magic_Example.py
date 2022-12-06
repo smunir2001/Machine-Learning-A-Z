@@ -92,3 +92,7 @@ print('Support Vector Machines (SVM)\n-------------------')
 print('y_pred =\n', y_pred)
 print('y_test =\n', y_test, '\n')
 print(classification_report(y_test, y_pred))
+
+# Neural Network Model 1:51:36
+# import tensorflow as tf
+# nn_model = []
