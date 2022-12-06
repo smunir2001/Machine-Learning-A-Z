@@ -77,3 +77,10 @@ MAP (Maximum A Posteriori)
 * margins (goal is to maximize margin)
 * find straight line to distictively split the two classes
 * not robust with outliers
+## Neural Networks
+Input layer -> hidden layer -> output layer
+* input the features into the network
+* apply weights to the input features (for each feature/category)
+* the sum of all weights for each feature goes into the neuron
+    * add bias term to the neurons
+* activation function application -> output
